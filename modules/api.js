@@ -1,6 +1,7 @@
 /* Setando os modulos na aplicação */
 var express    = require('express');
 var bodyParser = require('body-parser');
+const PORT     = process.env.PORT || 3000;
 
 /* Iniciando a aplicação com express */
 var api        = module.exports = express();
@@ -20,4 +21,4 @@ api.use(bodyParser.json());
 api.use(bodyParser.urlencoded({ extended: true }));
 
 /* Seta porta de acesso */
-api.listen(3000);
+api.listen(PORT, () => console.log(`Listening on ${ PORT }`));
