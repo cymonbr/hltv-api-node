@@ -2,7 +2,7 @@
     "name": "API for HLTV.org",
     "description": "This is a API for data of HLTV",
     "repository": "https://github.com/cymonbr/hltv-api-node.git",
-    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/master/public/node.svg",
+    "logo": "https://cdn.jsdelivr.net/gh/heroku/node-js-getting-started/public/node.svg",
     "keywords": ["node", "api", "hltv"],
     "image": "heroku/nodejs"
 }
